@@ -1,0 +1,86 @@
+{
+  "name": "mexty-quik",
+  "version": "0.1.1",
+  "cdn_url": "https://cdn.jsdelivr.net/gh/mexty/quik-static@v0.1.1/",
+  "json": [
+    "assets/vi.7ca661da.json"
+  ],
+  "assets": [
+    {
+      "order": 0,
+      "position": "head",
+      "tag": "script",
+      "attr": {
+        "type": "module",
+        "src": "https://polyfill.io/v3/polyfill.min.js?features=Intl%2CIntl.DateTimeFormat%2CIntl.DateTimeFormat.prototype.formatToParts%2CIntl.DateTimeFormat.%7EtimeZone.all%2CIntl.DateTimeFormat.%7EtimeZone.golden%2CIntl.DisplayNames%2CIntl.ListFormat%2CIntl.Locale%2CIntl.NumberFormat%2CIntl.PluralRules%2CIntl.RelativeTimeFormat%2CIntl.getCanonicalLocales%2CArray.prototype.flat%2CArray.prototype.flatMap%2CglobalThis"
+      }
+    },
+    {
+      "order": 1,
+      "position": "head",
+      "tag": "script",
+      "attr": {
+        "type": "module",
+        "crossorigin": "",
+        "src": "assets/index.190edc01.js"
+      }
+    },
+    {
+      "order": 2,
+      "position": "head",
+      "tag": "link",
+      "attr": {
+        "rel": "modulepreload",
+        "href": "assets/vendor.bbf9911b.js"
+      }
+    },
+    {
+      "order": 3,
+      "position": "head",
+      "tag": "link",
+      "attr": {
+        "rel": "stylesheet",
+        "href": "assets/index.f31927d5.css"
+      }
+    },
+    {
+      "order": 99,
+      "position": "head",
+      "tag": "script",
+      "attr": {
+        "type": "module"
+      },
+      "content": "!function(){try{new Function(\"m\",\"return import(m)\")}catch(o){console.warn(\"mexty-quik: loading legacy build because dynamic import is unsupported, syntax error above should be ignored\");var e=document.getElementById(\"mexty-quik-legacy-polyfill\"),n=document.createElement(\"script\");n.src=e.src,n.onload=function(){System.import(document.getElementById('mexty-quik-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}}();"
+    },
+    {
+      "order": 100,
+      "position": "body",
+      "tag": "script",
+      "attr": {
+        "nomodule": ""
+      },
+      "content": "!function(){var e=document,t=e.createElement(\"script\");if(!(\"noModule\"in t)&&\"onbeforeload\"in t){var n=!1;e.addEventListener(\"beforeload\",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute(\"nomodule\")||!n)return;e.preventDefault()}),!0),t.type=\"module\",t.src=\".\",e.head.appendChild(t),t.remove()}}();"
+    },
+    {
+      "order": 101,
+      "position": "body",
+      "tag": "script",
+      "attr": {
+        "nomodule": "",
+        "id": "mexty-quik-legacy-polyfill",
+        "src": "assets/polyfills-legacy.0dd117b1.js"
+      }
+    },
+    {
+      "order": 102,
+      "position": "body",
+      "tag": "script",
+      "attr": {
+        "nomodule": "",
+        "id": "mexty-quik-legacy-entry",
+        "data-src": "assets/index-legacy.8d4e0b9f.js"
+      },
+      "content": "System.import(document.getElementById('mexty-quik-legacy-entry').getAttribute('data-src'))"
+    }
+  ]
+}

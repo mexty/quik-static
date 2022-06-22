@@ -1,9 +1,9 @@
 {
   "name": "mexty-quik",
-  "version": "0.1.7",
-  "cdn_url": "https://cdn.jsdelivr.net/gh/mexty/quik-static@v0.1.7/",
+  "version": "0.1.8",
+  "cdn_url": "https://cdn.jsdelivr.net/gh/mexty/quik-static@v0.1.8/",
   "json": [
-    "assets/vi.41d08194.json"
+    "assets/vi.ef7ace68.json"
   ],
   "assets": [
     {
@@ -22,7 +22,7 @@
       "attr": {
         "type": "module",
         "crossorigin": "",
-        "src": "assets/index.2c95629f.js"
+        "src": "assets/index.60ef2b21.js"
       }
     },
     {
@@ -78,7 +78,7 @@
       "attr": {
         "nomodule": "",
         "id": "mexty-quik-legacy-entry",
-        "data-src": "assets/index-legacy.76ca8221.js"
+        "data-src": "assets/index-legacy.41dd694b.js"
       },
       "content": "System.import(document.getElementById('mexty-quik-legacy-entry').getAttribute('data-src'))"
     }

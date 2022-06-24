@@ -1,7 +1,7 @@
 {
   "name": "mexty-quik",
-  "version": "0.1.20",
-  "cdn_url": "https://cdn.jsdelivr.net/gh/mexty/quik-static@v0.1.20/",
+  "version": "0.1.21",
+  "cdn_url": "https://cdn.jsdelivr.net/gh/mexty/quik-static@v0.1.21/",
   "json": [
     "assets/vi.91f59649.json"
   ],
@@ -22,7 +22,7 @@
       "attr": {
         "type": "module",
         "crossorigin": "",
-        "src": "assets/index.fbb43448.js"
+        "src": "assets/index.b7c010c0.js"
       }
     },
     {
@@ -40,7 +40,7 @@
       "tag": "link",
       "attr": {
         "rel": "stylesheet",
-        "href": "assets/index.cf07207a.css"
+        "href": "assets/index.e6502597.css"
       }
     },
     {
@@ -68,7 +68,7 @@
       "attr": {
         "nomodule": "",
         "id": "mexty-quik-legacy-polyfill",
-        "src": "assets/polyfills-legacy.95a45b51.js"
+        "src": "assets/polyfills-legacy.99647da1.js"
       }
     },
     {
@@ -78,7 +78,7 @@
       "attr": {
         "nomodule": "",
         "id": "mexty-quik-legacy-entry",
-        "data-src": "assets/index-legacy.57f0140c.js"
+        "data-src": "assets/index-legacy.e9bc4f47.js"
       },
       "content": "System.import(document.getElementById('mexty-quik-legacy-entry').getAttribute('data-src'))"
     }

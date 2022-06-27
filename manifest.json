@@ -1,7 +1,7 @@
 {
   "name": "mexty-quik",
-  "version": "0.1.32",
-  "cdn_url": "https://cdn.jsdelivr.net/gh/mexty/quik-static@v0.1.32/",
+  "version": "0.1.33",
+  "cdn_url": "https://cdn.jsdelivr.net/gh/mexty/quik-static@v0.1.33/",
   "json": [
     "assets/vi.b5027e10.json"
   ],
@@ -68,7 +68,7 @@
       "attr": {
         "nomodule": "",
         "id": "mexty-quik-legacy-polyfill",
-        "src": "assets/polyfills-legacy.18e9ca35.js"
+        "src": "assets/polyfills-legacy.c4a2f219.js"
       }
     },
     {

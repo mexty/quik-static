@@ -1,7 +1,7 @@
 {
   "name": "mexty-quik",
-  "version": "0.1.38",
-  "cdn_url": "https://cdn.jsdelivr.net/gh/mexty/quik-static@v0.1.38/",
+  "version": "0.1.39",
+  "cdn_url": "https://cdn.jsdelivr.net/gh/mexty/quik-static@v0.1.39/",
   "json": [
     "assets/vi.b5027e10.json"
   ],
